@@ -1,0 +1,22 @@
+.headerContainer{
+    border:5px solid pink;
+    height: 220px;
+    width: 100%;
+}
+
+.orderBar{
+border: 13px green;
+background-color: rgb(223, 171, 171);
+height: 105px;
+width: 100%;
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+}
+
+.logo{
+    height: 70px;
+width: 100px;
+}
+
+
