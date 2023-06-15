@@ -5,7 +5,7 @@ const openLink = () => {
 
 // DOM Manipulation type - classlist.toggle//
 const imgToFoodPrep = () => {
-    //1.target img (image) i.e the 1st class
+    //1.target img ( in this scenerio the class roww) i.e the 1st class
     let picture = document.querySelector('.roww')
     //2. target food i.e. the 2nd class
     picture.classList.toggle('foodPrep')
@@ -16,4 +16,10 @@ const imgToFoodReview = () => {
     let picture = document.querySelector('.roww')
     //2. target food i.e. the 2nd class
     picture.classList.toggle('foodReview')
+}
+
+const appluad = () => {
+    imgToFoodReview()
+    let newRoww = document.querySelector('.foodReview')
+    newRoww.innerHTML = 'Thank you' 
 }
