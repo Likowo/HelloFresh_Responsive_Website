@@ -76,7 +76,7 @@ align-items: center;
 }
 
 .topContHeader{
-    margin-top: 15%;
+    margin-top: 20%;
     text-align: center;
     font-size:50px;
 }
@@ -99,7 +99,7 @@ align-items: center;
 
 .middleContainer{
     border: solid grey;
-    height:auto;
+    height: 750px;
     display: flex;
    justify-content: space-evenly;
     margin: auto;
@@ -112,7 +112,7 @@ align-items: center;
     height: 120px;
    max-width: fit-content;
     margin-bottom:-8%;
-    padding-left: 25%;
+    padding-left: 30%;
     text-align: center;
     font-size:20px;
 }
@@ -127,6 +127,22 @@ align-items: center;
     justify-content: space-between;
 }
 
+.foodPrep{
+    height: 60%;
+    width: auto;
+    margin-top:12%;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-between;
+    background-image:url('https://www.hellofresh.com/recipes/crispy-buffalo-spiced-chicken-60c9fff23a9c2005004a0d5d') ;
+}
 
+.items{
+    border: solid 3px blue;
+    background-color: yellow;
+}
 
+.foodReview{
+    background-image: url('https://youtu.be/GBxLdt4zobc');
+}
    

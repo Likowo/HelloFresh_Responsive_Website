@@ -4,9 +4,16 @@ const openLink = () => {
 }
 
 // DOM Manipulation type - classlist.toggle//
-const imgToFoodItems = () => {
+const imgToFoodPrep = () => {
     //1.target img (image) i.e the 1st class
-    let picture = document.querySelector('.img')
+    let picture = document.querySelector('.roww')
     //2. target food i.e. the 2nd class
-    picture.classList.toggle('food')
+    picture.classList.toggle('foodPrep')
+}
+
+const imgToFoodReview = () => {
+    //1.target img (image) i.e the 1st class
+    let picture = document.querySelector('.roww')
+    //2. target food i.e. the 2nd class
+    picture.classList.toggle('foodReview')
 }
