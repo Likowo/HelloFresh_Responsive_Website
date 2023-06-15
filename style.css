@@ -96,6 +96,7 @@ align-items: center;
    } 
    50% {
     border-radius: 60%;
+    border: solid blue;
    }
    100% {
     border: solid red;
@@ -114,7 +115,7 @@ align-items: center;
 }
 
 .middleContainer{
-    border: solid grey;
+    /* border: solid grey; */
     height: 750px;
     display: flex;
    justify-content: space-evenly;
@@ -124,10 +125,10 @@ align-items: center;
 }
 
 .middleContHeader{
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     height: 120px;
    max-width: fit-content;
-    margin-bottom:-8%;
+    margin-bottom:-12%;
     padding-left: 30%;
     text-align: center;
     font-size:20px;
@@ -160,5 +161,36 @@ align-items: center;
 
 .foodReview{
     background-image: url('https://youtu.be/GBxLdt4zobc');
+}
+
+@keyframes bottContHB{
+ 0% { 
+    background-color: magenta;
+   }
+ 25% {
+    background-color: blueviolet;
+ }
+ 75% {
+    background-color: aquamarine;
+ }
+ 100% {
+    background-color: magenta; 
+ }
+
+}
+
+.bottContHeader{
+    border: 2px solid magenta;
+   background-color: magenta;
+    height: 135px;
+  width: 40%;
+    margin-bottom:-12%;
+    margin-left: 29%;
+    text-align: center;
+    font-size:20px;
+    animation-name: bottContHB;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
 }
    
